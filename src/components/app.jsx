@@ -17,7 +17,6 @@ class App extends Component {
   }
 
   search = (query) => {
-    // TODO: API call
     giphy('UCDFX1QpKvsso09S64Y3bRTRkPHzxzZc').search({
       q: query,
       rating: 'g',
